@@ -20,7 +20,7 @@
     <center><p class="linfo">Masukkan username dan password anda</p></center>
 
     <%--<div class="content">--%>
-    <form action="/action_regist.jsp">
+    <form action="customer/customer.jsp">
         <table align="center">
             <tr>
                 <td>Username</td> <td>:</td> <td><input type="text" name="username"></td>

@@ -64,16 +64,11 @@ body {
     padding-left: auto;
     padding-right: auto;
     color: #000
-
-
-
 }
 
 .content h3 {
     margin:auto;
     padding: 20px;
-
-
 }
 
 .content p {
@@ -81,7 +76,49 @@ body {
     text-align:justify;
     padding: 20px;
     margin-top: -30px;
+}
 
+.contentKanan {
+    float: right;
+    background-color: #f2f2f2;
+    width: 60%;
+    margin: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    color: #000
+}
+.contentKanan h3 {
+    margin:auto;
+    padding: 20px;
+}
+
+.contentKanan p {
+    margin:auto;
+    text-align:justify;
+    padding: 20px;
+    margin-top: -30px;
+}
+.contentKiri {
+    float: left;
+    background-color: #f2f2f2;
+    width: 30%;
+    margin: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    color: #000
+}
+.contentKiri h3 {
+    margin:auto;
+    padding: 20px;
+}
+
+.contentKiri p {
+    margin:auto;
+    text-align:justify;
+    padding: 20px;
+    margin-top: -30px;
 }
 
 .footer {
@@ -97,4 +134,7 @@ body {
     width: 100%;
 }
 
+.kanan {
+    padding-left: 550px;
+}
 
