@@ -20,7 +20,7 @@
         <p class="linfo">Builded on April, 2019</p>
 
         <div class="contentKiri">
-            <h4>NAMA</h4>
+            <center><h4>NAMA</h4></center>
             <p>Customer Number</p>
             <p>Birth Date</p>
             <p>Alamat</p>

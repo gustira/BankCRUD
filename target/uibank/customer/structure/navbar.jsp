@@ -15,9 +15,9 @@
 <body>
 
 <div class="navbarr">
-    <li><a href="../ho"><font size="4" color="white">Bank CRUD</font></a></li>
-    <li><a href="login.jsp">Account</a></li>
-    <li><a href="register.jsp">Wallet</a></li>
+    <li><a href="../../index.jsp"><font size="4" color="white">Bank CRUD</font></a></li>
+    <li><a href="account.jsp">Account</a></li>
+    <li><a href="wallet.jsp">Wallet</a></li>
     <li><a href="login.jsp">Wallet Account</a></li>
     <li><a href="register.jsp">Transaction</a></li>
     <li><a href="login.jsp">Profile</a></li>
