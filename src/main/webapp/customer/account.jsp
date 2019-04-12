@@ -42,34 +42,34 @@
             <tr>
                 <td>1</td>
                 <td>001</td>
-                <td>Gustira</td>
+                <td>OVO</td>
                 <td>Rp.5.000.000</td>
                 <td>05-06-2001</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>001</td>
-                <td>Gustira</td>
+                <td>GoPay</td>
                 <td>Rp.5.000.000</td>
                 <td>05-06-2001</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>001</td>
-                <td>Gustira</td>
+                <td>OVO</td>
                 <td>Rp.5.000.000</td>
                 <td>05-06-2001</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>001</td>
-                <td>Azwan</td>
+                <td>GoPay</td>
                 <td>Rp.10.000.000</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>001</td>
-                <td>Azwan</td>
+                <td>Dana</td>
                 <td>Rp.10.000.000</td>
                 <td>05-06-2001</td>
             </tr>

@@ -228,7 +228,11 @@ input[type=radio]:not(old):checked + label > span > span{
     background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
 }
 
-.butn {
-    position: center;
-}
+    /*.butn {*/
+        /*position: center;*/
+        /*background-color: #35A9DB;*/
+        /*width: 100px;*/
+    /*}*/
+
+
 

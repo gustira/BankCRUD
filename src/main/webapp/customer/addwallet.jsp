@@ -38,7 +38,7 @@
                 <input id="option" type="radio" name="field" value="option">
                 <label for="option"><span><span></span></span>E-Payment</label>
             </div>
-                     <td><button type="submit">Add Wallet</button></td>
+                     <center><td><button type="submit">Add Wallet</button></td></center>
         </form>
     </div>
 
