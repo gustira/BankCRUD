@@ -60,7 +60,7 @@
                 <tr>
                     <td><input type='submit' name='tombol' value='Register' /></td>
                 </tr>
-                
+
             </table>
         </form>
 

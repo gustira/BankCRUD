@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Wallet Unregister</title>
+    <title>Wallet Register</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
@@ -31,27 +31,27 @@
         <li><a href="walletaccount.jsp">List</a></li>
         <li><a href="register.jsp">Register</a></li>
         <li><a href="unregister.jsp">Unregister</a></li>
-        <h3>Daftar Wallet Account</h3>
-        <table class="table1">
-            <tr>
-                <th>No</th>
-                <th>Wallet</th>
-                <th>Acount Number</th>
-                <th>Account</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Rekening</td>
-                <td>001</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>E-Payment</td>
-                <td>001</td>
-                <td>OVO</td>
-            </tr>
-        </table>
+        <h3>Pilih Account Number yang akan di Unregister</h3>
+
+        <form action="proses.php" method="get">
+            <table>
+                <tr>
+                    <td>Account Number</td><td><select name='agama'>
+                    <option value='1'>1</option>
+                    <option value='2' selected='selected'>2</option>
+                    <option value='3'>3</option>
+                    <option value='5'>4</option>
+                    <option value='6'>5</option>
+                </select></td>
+
+                </tr>
+
+                <tr>
+                    <td><input type='submit' name='tombol' value='Unregister' /></td>
+                </tr>
+
+            </table>
+        </form>
 
     </div>
 

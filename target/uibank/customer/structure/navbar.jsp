@@ -19,10 +19,10 @@
     <li><a href="account.jsp">Account</a></li>
     <li><a href="wallet.jsp">Wallet</a></li>
     <li><a href="walletaccount.jsp">Wallet Account</a></li>
-    <li><a href="register.jsp">Transaction</a></li>
+    <li><a href="transaction.jsp">Transaction</a></li>
     <li><a href="login.jsp">Profile</a></li>
     <li><a href="#">About</a></li>
-    <li><a href="register.jsp" class="kanan">Logout</a></li>
+    <li><a href="../../index.jsp" class="kanan">Logout</a></li>
     <a href=""></a>
 </div>
 

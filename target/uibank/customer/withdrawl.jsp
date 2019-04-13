@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Wallet Register</title>
+    <title>Withdraw</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
@@ -28,15 +28,15 @@
     </div>
 
     <div class="contentKanan">
-        <li><a href="walletaccount.jsp">List</a></li>
-        <li><a href="register.jsp">Register</a></li>
-        <li><a href="unregister.jsp">Unregister</a></li>
-        <h3>Pilih Wallet Account yg akan diregister</h3>
-
+        <li><a href="transaction.jsp">History</a></li>
+        <li><a href="topup.jsp">TopUp</a></li>
+        <li><a href="transfer.jsp">Transfer</a></li>
+        <li><a href="withdrawl.jsp">Withdraw</a></li>
+        <h3>Withdraw</h3>
         <form action="proses.php" method="get">
             <table>
                 <tr>
-                    <td>Wallet Id</td><td> <select name='walletid'>
+                    <td>Account Number</td><td> <select name='walletid'>
                     <option value='001'>001</option>
                     <option value='002' selected='selected'>002</option>
                     <option value='003'>003</option>
@@ -47,22 +47,23 @@
                 </tr>
 
                 <tr>
-                    <td>Account Number</td><td><select name='agama'>
-                    <option value='1'>1</option>
-                    <option value='2' selected='selected'>2</option>
-                    <option value='3'>3</option>
-                    <option value='5'>4</option>
-                    <option value='6'>5</option>
+                    <td>Amout</td><td><select name='amount'>
+                    <option value='Rp.20.000'>Rp.20.000</option>
+                    <option value='Rp.50.000' selected='selected'>Rp.50.000</option>
+                    <option value='Rp.100.000'>Rp.100.000</option>
+                    <option value='Rp.500.000'>Rp.500.000</option>
+                    <option value='Rp.1.000.000'>Rp.1.000.000</option>
                 </select></td>
 
                 </tr>
 
                 <tr>
-                    <td><input type='submit' name='tombol' value='Register' /></td>
+                    <td><input type='submit' name='tombol' value='Withdraw' /></td>
                 </tr>
 
             </table>
         </form>
+
 
     </div>
 
