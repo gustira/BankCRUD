@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<div class="bground">
+
 <jsp:include page="structure/navbar.jsp"/>
 <div class="container">
     <center><h1 class="judul">Register</h1></center>
@@ -48,6 +50,8 @@
 
 
 <jsp:include page="structure/footer.jsp"/>
+
+</div>
 
                 <%--<form action="/action_page.php">--%>
                     <%--<div class="form-group">--%>

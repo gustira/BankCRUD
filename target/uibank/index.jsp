@@ -7,7 +7,7 @@
 <body>
 
  <jsp:include page="structure/navbar.jsp"/>
-
+<div class="bground">
 <div class="container">
     <h1 class="judul">Bank CRUD</h1>
 
@@ -26,6 +26,7 @@
 
 <jsp:include page="structure/footer.jsp"/>
 
+</div>
 
 </body>
 </html>

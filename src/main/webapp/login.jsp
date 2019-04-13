@@ -13,7 +13,10 @@
 </head>
 <body>
 
+
 <jsp:include page="structure/navbar.jsp"/>
+
+<div class="bground">
 <div class="container">
     <center><h1 class="judul">Login</h1></center>
 
@@ -40,6 +43,7 @@
 
 <jsp:include page="structure/footer.jsp"/>
 
+</div>
 
 </body>
 </html>
